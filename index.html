@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!------------------------ Navbar Section -------------------------->
+
+    <header>
+      <nav class="navbar">
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#A1">Home</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#A2">Skills</a></li>
+          <li><a href="#A3">Certificate</a></li>
+          <li><a href="#A4">Projects </a></li>
+          <li><a href="#A5">Contact Me </a></li>
+        </ul>
+        <ul>
+          <li><a id="head" href="#">Ronnie</a></li>
+          <li class="hideOnMobile"><a href="#A1">Home</a></li>
+          <li class="hideOnMobile"><a href="#about">About </a></li>
+          <li class="hideOnMobile"><a href="#A2">Skills</a></li>
+          <li class="hideOnMobile"><a href="#A3">Certificate</a></li>
+          <li class="hideOnMobile"><a href="#projects">Projects </a></li>
+          <li class="hideOnMobile"><a href="#A5">Contact Me </a></li>
+          <li class="menubutton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+        </ul>
+      </nav>
+    </header>
+
+     <!------------------------ Home Section -------------------------->
+
+    <main>
+      <section class="firstsection" id="A1">
+        <div class="leftsection">
+          Hi, My Name is
+          <br /><span class="Name">Ankit Yadav</span>
+
+          <div>
+            and I am a passionate <br>
+            <span id = "element"></span>
+          </div>
+          
+          <div class="social">
+            <a href="https://www.linkedin.com/in/ankityadav3m/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="#about" class="socialbox">More About Me</a>
+        </div>
+        <div class="rightsection">
+          <img src="images/graph (1).png" alt="Developerimage" />
+        </div>
+      </section>
+    
+      <!------------------------ Skills Section -------------------------->
+
+      <section class="mys" id="A2">
+        <div class="title">MY SKILLS</div>
+
+        <div class="mys1">
+          <div class="box1">
+            <span style="--i: 1">
+              <h2>Python</h2>
+            </span>
+            <span style="--i: 2">
+              <h2>C++</h2>
+            </span>
+            <span style="--i: 3">
+              <h2>Java</h2>
+            </span>
+            <span style="--i: 4">
+              <h2>C</h2>
+            </span>
+            <span style="--i: 5">
+              <h2>JavaScript</h2>
+            </span>
+            <span style="--i: 6">
+              <h2>CSS</h2>
+            </span>
+            <span style="--i: 7">
+              <h2>HTML</h2>
+            </span>
+            <span style="--i: 8">
+              <h2>MYSQL</h2>
+            </span>
+            <span style="--i: 9">
+              <h2>Automation</h2>
+            </span>
+          </div>
+        </div>
+
+        <div class="mys2">
+          <div class="sb">
+            <div class="bar">
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="prli HTML"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="prli CSS"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>JavaSript</span>
+              </div>
+              <div class="prli JS"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>Python</span>
+              </div>
+              <div class="prli P"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>MySQL</span>
+              </div>
+              <div class="prli MY"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------ Certificate Section --------------------------> 
+
+      <section class="certi" id="A3">
+        <div class="title">Certificate</div>
+
+        <div class="pro">
+          <div class="pro1">
+            <img src="images/c1.png" alt="" />
+          </div>
+
+          <div class="pro2">
+            <img src="images/c2.png" alt="" />
+          </div>
+
+          <div class="pro3">
+            <img src="images/c3.png" alt="" />
+          </div>
+        </div>
+        <div class="pros">
+          <div class="pro4">
+            <img src="images/c4.png" alt="" />
+          </div>
+
+          <div class="pro5">
+            <img src="images/c5.png" alt="" />
+          </div>
+
+          <div class="pro6">
+            <img src="images/c6.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!------------------------ Projects Section -------------------------->
+
+
+      <section class="project section" id="projects">
+
+        <div class="title">Projects</div>
+    
+        <div class="project_container">
+          
+          <article class="project_card">
+            <img class="project_img" src="images/images.jpg" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Web</span>
+              <h2 class="project_title">Portfolio Website</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project_card">
+            <img class="project_img" src="images/Spot.jpg" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Web</span>
+              <h2 class="project_title">Music Website</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project_card">
+            <img class="project_img" src="images/mail" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Automation</span>
+              <h2 class="project_title">Mail Automation</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      
+
+        <!-- <div class="project_container container grid">
+          <div class="container1">
+          <article class="project_card">
+            <img class="project_img" src="images/excel.jpg" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Automation</span>
+              <h2 class="project_title">Excel Manipulation</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project_card">
+            <img class="project_img" src="images/pdf.png" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Automation</span>
+              <h2 class="project_title"> Pdf Extraction</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project_card">
+            <img class="project_img" src="images/mail" alt="project image" />
+  
+            <div class="project_modal">
+              <span class="project_subtitle">Automation</span>
+              <h2 class="project_title">Mail Automation</h2>
+              <a href="#" class="project_button">
+                View More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div> -->
+        </div>
+
+      </section>
+
+      <!------------------------ About Section -------------------------->
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="images/Ankit.jpg" alt="" />
+        </div>
+        <div class="about-text">
+          <h2 class="font">About &nbsp;<span class="a1">Me</span></h2>
+          <br />
+          <h4 class="font2">Aspiring Web Developer</h4>
+          <br>
+
+          <p>
+            I'm a dedicated and aspiring Web Developer with a Bachelor's degree from Allahabad State University and currently pursuing my MCA at Lovely Professional University. Proficient in HTML, CSS, and JavaScript, I also have strong skills in C++ and Java. Experienced in database management with SQL, I'm comfortable in both Windows and Linux. Recently certified in Full Stack Development by IBM via Coursera, I've applied my skills in real-world projects, including my portfolio website showcasing my work. Check it out for more details!
+          </p>
+          <a id="a2" href="images/Ankit's Resume.pdf" download class="socialbox">Download CV</a>
+        </div>
+      </section>
+    
+   <!------------------------ Contact Section -------------------------->
+
+      <footer>
+        <div class="main-content" id="A5">
+          <div class="left box">
+            <h2>Social</h2>
+            <div class="content">
+              <p>
+                For any further projects and contact you can find me on these
+                social links.
+              </p>
+  
+              <div class="social">
+                <a href="https://www.linkedin.com/in/ankityadav3m/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+              <div class="place">
+                <span class="fa fa-map-marker"></span>
+                <span class="text">Shahdol, Madhya Pradesh</span>
+              </div>
+  
+              <div class="phone">
+                <span class="fa fa-phone"></span>
+                <span class="text">8718092913</span>
+              </div>
+  
+              <div class="email">
+                <span class="fa fa-envelope"></span>
+                <span class="text">ankityadav3m@gmail.com</span>
+              </div>
+            </div>
+          </div>
+  
+          <div class="right box">
+            <h2>Contact Me</h2>
+            <div class="content">
+              <form
+                action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeBdy0QhuIuYXcjY5UJQCZ-RVQ-3ua2HYjvwUxpUARPbe2o6A/formResponse"
+              >
+                <div class="email">
+                  <div class="text">Email *</div>
+                  <input type="email" name="em" required="" />
+                </div>
+  
+                <div class="Message">
+                  <div class="text">Message *</div>
+                  <textarea rows="2" cols="25" required=""></textarea>
+                </div>
+  
+                <div class="btn">
+                  <button type="submit" onclick="HPR()">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+  
+        <div class="bottom">
+          <center>
+            <span class="credit">Created by <a href="#">Ankit</a></span>
+            <span class="fa fa-copyright"></span
+            ><span> 2024 All Right Reserved</span><br />
+          </center>
+        </div>
+      </footer>
+      
+     
+
+        
+      
+    </main>
+  </body>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</html>
