@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -56,7 +58,7 @@ nav li:first-child {
   margin-right: auto;
   font-size: 21px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: uppercase;w
   letter-spacing: 3px;
 }
 .sidebar {
@@ -81,12 +83,23 @@ nav li:first-child {
   width: 100%;
 }
 .sidebar a:hover {
-  background-color: #1e90ff;
-  color: #fff;
+  background-color: #100f1d;
+ 
   transform: scale(1.1);
 }
 .menubutton {
   display: none;
+  background-color: #fff;
+  
+  
+}
+.menuclose{
+  background-color: #fff;
+  
+}
+.menuclose:hover{
+  
+   
 }
 @media (max-width: 800px) {
   .hideOnMobile {
@@ -192,6 +205,9 @@ nav li:first-child {
 .mys {
   background: #060608;
   font-weight: bold;
+  /* border: 2px solid  white; */
+
+
 }
 .mys .title {
   /* border: 2px solid white; */
@@ -288,11 +304,16 @@ nav li:first-child {
     font-size: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .box1 span h2 {
     font-size: 18px;
   }
+  .mys .mys1{
+    display: none;
+  }
+  
 }
+
 
 /*--------------------- Skills2 Section -------------------- */
 .mys2 {
@@ -301,6 +322,7 @@ nav li:first-child {
   place-items: center;
   padding: 50px;
   font-weight: bold;
+  /* border: 2px solid  white; */
 }
 
 .mys .mys2 .sb {
@@ -467,6 +489,7 @@ nav li:first-child {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* border: 2px solid white; */
 }
 .pro1,
 .pro2,
@@ -750,7 +773,7 @@ nav li:first-child {
   display: flex;
   /* height: 100vh; */
   column-gap: 4%;
-   font-family: "Nato sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* border: 2px solid white; */
 }
 .about-img {
@@ -784,7 +807,7 @@ nav li:first-child {
 }
 
 .about-text p {
-  font-family: "Nato sans", sans-serif;
+  font-family: "monospace", sans-serif;
   font-size: 20px;
   margin-top: 10px;
   text-align: justify;
