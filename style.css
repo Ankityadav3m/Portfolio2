@@ -24,6 +24,13 @@ body {
   font-size: 25px;
 } */
 
+.bound{
+  /* background: red; */
+  overflow: hidden;
+}
+.bound div{
+  transform: translateY(100%);
+}
 
 nav ul {
   height: 50px;
@@ -37,6 +44,7 @@ nav ul {
 
 nav li {
   height: 100%;
+  font-weight: bold;
 }
 nav a {
   height: 100%;
@@ -47,12 +55,13 @@ nav a {
   color: #fff;
 }
 
-nav a:hover {
+nav .hideOnMobile a:hover {
   color:  #7c73e6;
 
   transform: scale(1.1);
   transition: 0.3s;
 }
+
 
 nav li:first-child {
   margin-right: auto;
@@ -89,7 +98,8 @@ nav li:first-child {
 }
 .menubutton {
   display: none;
-  background-color: #fff;
+  font-size: 24px;
+  /* background-color: #fff; */
   
   
 }
@@ -97,10 +107,13 @@ nav li:first-child {
   background-color: #fff;
   
 }
-/* .menuclose:hover{
-  
-   
-} */
+.menuclose a{
+  color: #000;
+  font-size: 24px;
+}
+.menuclose a:hover{
+  color: #fff;
+}
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
@@ -131,7 +144,11 @@ nav li:first-child {
   font-size: 30px;
 }
 .rightsection img {
-  width: 70%;
+  width: 80%;
+ 
+  border-radius: 50%;
+  box-shadow:  0 0 2px #7c73e6, 0 0 4px #7c73e6, 0 0 6px #7c73e6, 0 0 8px #7c73e6,
+  0 0 10px #7c73e6;
 }
 .Name {
   color: #7c73e6;
@@ -188,7 +205,8 @@ nav li:first-child {
     text-align: center;
   }
   .rightsection img {
-    width: 100%;
+    width: 70%;
+    margin-top: 60px;
   }
 }
 @media (max-width: 450px) {

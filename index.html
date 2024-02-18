@@ -12,16 +12,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="loco.css">
 
    
   </head>
-  <body>
+  <body >
     <!------------------------ Navbar Section -------------------------->
 
     <header>
       <nav class="navbar">
         <ul class="sidebar">
-          <li class="menuclose" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li class="menuclose" onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark";"></i></a></li>
           <li><a href="#A1">Home</a></li>
           <li><a href="#about">About </a></li>
           <li><a href="#A2">Skills</a></li>
@@ -37,7 +38,7 @@
           <li class="hideOnMobile"><a href="#A3">Certificate</a></li>
           <li class="hideOnMobile"><a href="#projects">Projects </a></li>
           <li class="hideOnMobile"><a href="#A5">Contact Me </a></li>
-          <li class="menubutton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+          <li class="menubutton" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars" style="color: #fafafa;"></i></a></li>
         </ul>
       </nav>
     </header>
@@ -49,11 +50,15 @@
         <div class="leftsection">
           Hi, My Name is
           <br /><span class="Name">Ankit Yadav</span>
+          
+          <div class="bound">
+            <div>
+              and I am a passionate <br>
+              <span id = "element"></span>
+            </div>
 
-          <div>
-            and I am a passionate <br>
-            <span id = "element"></span>
           </div>
+          
           
           <div class="social">
             <a href="https://www.linkedin.com/in/ankityadav3m/"
@@ -66,7 +71,7 @@
           <a href="#about" class="socialbox">More About Me</a>
         </div>
         <div class="rightsection">
-          <img src="images/graph (1).png" alt="Developerimage" />
+          <img src="images/Ankit.jpg" alt="Developerimage" />
         </div>
       </section>
     
@@ -369,7 +374,13 @@
         
       
     </main>
-  </body>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="script.js"></script>
+  </body>
+  
+  
 </html>

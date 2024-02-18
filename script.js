@@ -18,6 +18,16 @@ var typed = new Typed('#element', {
   loop: true
 });
 
+function titleEffect(){
+  var tl=gsap.timeline();
+  tl.to(".bound div",{
+    y:'0',
+    duration:2,
+    ease:Expo.easeInOut
+    // opacity:0
+  })
+}
+titleEffect();
 
 
 
