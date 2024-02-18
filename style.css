@@ -58,7 +58,7 @@ nav li:first-child {
   margin-right: auto;
   font-size: 21px;
   font-weight: bold;
-  text-transform: uppercase;w
+  text-transform: uppercase;
   letter-spacing: 3px;
 }
 .sidebar {
@@ -68,7 +68,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: ;
+  /* background-color: ; */
   backdrop-filter: blur(100px);
   display: none;
   flex-direction: column;
@@ -97,10 +97,10 @@ nav li:first-child {
   background-color: #fff;
   
 }
-.menuclose:hover{
+/* .menuclose:hover{
   
    
-}
+} */
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
@@ -1105,7 +1105,3 @@ footer {
       height: 35px;
     }
   }
-  
-  
-  
-
