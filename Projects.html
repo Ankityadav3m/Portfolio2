@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="255.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Web Development Project</title>
+    <link rel="stylesheet" type="text/css" href="projects.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="255.png" />
+  </head>
+
+  <body>
+    <!----------------------------------------------NavPane----------------------------------------------------------------------->
+
+    <nav class="A1">
+      <div class="B1">
+        <div class="N1">
+          <i class="fa fa-tasks"></i>
+          &nbsp;&nbsp;<a href="#"> < A Y > </a>
+        </div>
+
+        <div class="Menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project1.html">Web Development</a></li>
+            <li><a href="#">Projects</a></li>
+            <!-- <li><a href="#">Python</a></li> -->
+          </ul>
+        </div>
+
+        <div class="mb">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!---------------------------------------------------Homepage------------------------------------------------------------------>
+
+    <section class="home" id="h1" data-aos="fade-right">
+      <div class="d1">
+        <div class="d2">
+          <div class="grid-container">
+            <div class="d3">
+              <div class="f1">
+                <div class="f2">
+                  <div class="slider">
+                    <figure>
+                      <img src="images/music.png" />
+                      <!-- <img src="images/anime2.png" />
+                      <img src="images/anime3.png" />
+                      <img src="images/anime5.png" />
+                      <img src="images/anime4.png" /> -->
+                    </figure>
+                  </div>
+
+                  <div class="container">
+                    <div class="dc1">
+                      <h1>Music Website</h1>
+                      <p>
+                        I have designed and developed a dynamic Music Streaming
+                        Website inspired by platforms like Spotify, aimed at
+                        providing users with a seamless and enjoyable music
+                        listening experience. This project reflects my passion
+                        for music and proficiency in web development
+                        technologies including HTML, CSS, and JavaScript.
+                      </p>
+                    </div>
+                    <div class="dc2">
+                      <h1>Techonlogies</h1>
+                      <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <Section >
+        <ul class="cards">
+            <li>
+              <a href="" class="card">
+                <img src="images/Spot.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                 
+                    <div class="card__header-text">
+                      <h3 class="card__title">Music Website</h3>            
+                      <span class="card__status">Web Development</span>
+                    </div>
+                  </div>
+                  <p class="card__description">I've developed a dynamic Music Streaming Website inspired by platforms like Spotify. It offers users a seamless and enjoyable music listening experience</p>
+                </div>
+              </a>      
+            </li>
+            <li>
+              <a href="" class="card">
+                <img src="images/mail" class="card__image" alt="" />
+                <div class="card__overlay">        
+                  <div class="card__header">
+                  
+                    <div class="card__header-text">
+                      <h3 class="card__title">Mail Automation</h3>
+                      <span class="card__status">Uipath</span>
+                    </div>
+                  </div>
+                  <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                </div>
+              </a>
+            </li>
+            <li>
+                <a href="" class="card">
+                  <img src="images/Clock.png" class="card__image" alt="" />
+                  <div class="card__overlay">        
+                    <div class="card__header">
+                    
+                      <div class="card__header-text">
+                        <h3 class="card__title">Mail Automation</h3>
+                        <span class="card__status">Uipath</span>
+                      </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                  </div>
+                </a>
+              </li>
+           
+    </Section>
+
+
+
+    <!-------------------------------------------AOS---------------------------------------------------->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        delay: 0.5,
+        duration: 1000,
+        easing: "ease",
+      });
+    </script>
+    <!--------------------------------------------------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if (this.scrollY > 20) {
+            $(".A1").addClass("sticky");
+          } else {
+            $(".A1").removeClass("sticky");
+          }
+        });
+        //toggle menu/script
+        $(".mb").click(function () {
+          $(".A1 .Menu").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
